@@ -49,7 +49,7 @@ export default function App() {
 
     {/* Engineering illustration */}
     <div className="relative mx-auto min-h-[330px] w-full max-w-[560px] sm:min-h-0" role="img" aria-label="Engineering workbench with software, electronics, IoT sensors and mechanical components">
-      <img src="assets/images/engineering-workbench.png" alt="" className="absolute inset-0 z-20 h-full w-full rounded-2xl object-cover object-center shadow-2xl shadow-black/30 sm:rounded-3xl" />
+      <img src="/assets/images/engineering-workbench.png" alt="" className="absolute inset-0 z-20 h-full w-full rounded-2xl object-cover object-center shadow-2xl shadow-black/30 sm:rounded-3xl" />
       <div className="absolute inset-x-0 bottom-0 z-30 rounded-b-3xl bg-gradient-to-t from-navy via-navy/70 to-transparent px-6 pb-6 pt-24">
         <p className="font-head text-xl font-semibold text-white">Custom projects built for your requirement</p>
         <p className="mt-1 text-sm text-slate-300">Diploma · Mini · Final-year</p>
@@ -364,7 +364,7 @@ export default function App() {
   <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
     <div className="grid gap-7 md:grid-cols-[1.4fr_1fr_1fr]">
       <div>
-        <div className="flex items-center gap-3"><img src="assets/icons/circuit-logo.svg" width="40" height="40" alt="" /><p className="font-head text-xl font-bold text-white">Nimexa Projects</p></div>
+        <div className="flex items-center gap-3"><img src="/assets/icons/circuit-logo.svg" width="40" height="40" alt="" /><p className="font-head text-xl font-bold text-white">Nimexa Projects</p></div>
         <p className="mt-1 text-sm text-slate-400">ECE · EEE · CSE · IoT · Mechanical · Web Applications</p>
         <p className="mt-3 max-w-md text-sm leading-relaxed text-slate-400">Custom Diploma, mini and final-year projects built after discussing your requirements.</p>
       </div>

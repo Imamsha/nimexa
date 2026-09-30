@@ -43,7 +43,7 @@ export function Header() {
   return <header id="navbar" className={`fixed inset-x-0 z-50 border-b border-transparent ${scroll > 20 || open ? 'scrolled' : ''}`}>
     <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-3 sm:px-6 lg:px-8">
       <a href="#home" className="flex shrink-0 items-center gap-2" aria-label="Nimexa Projects, go to home">
-        <img src="assets/icons/circuit-logo.svg" width="40" height="40" alt="" />
+        <img src="/assets/icons/circuit-logo.svg" width="40" height="40" alt="" />
         <span className="leading-tight"><span className="brand-title block font-head text-sm font-bold text-ink sm:text-base">Nimexa Projects</span><span className="brand-subtitle block text-[9px] text-slate-500 min-[380px]:text-[10px]">ECE · EEE · CSE · IoT · MECH</span></span>
       </a>
       <nav className="hidden items-center gap-0.5 xl:flex" aria-label="Main navigation">
